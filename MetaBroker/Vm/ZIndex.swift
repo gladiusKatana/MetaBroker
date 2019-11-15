@@ -7,19 +7,12 @@ extension CustomFlowLayout {
 
         
         if row < lockedHeaderRows {
-            cellAttributes.zIndex = 3
-        }
-        
-        
-        if section == 0 {
-            cellAttributes.zIndex = 3
-        }
-        
-        
-        if row == 0
-            && section == 0
-        {
             cellAttributes.zIndex = 4
+        }
+        
+        
+        if section == 0 && row > 0 {
+            cellAttributes.zIndex = 3
         }
         
     }

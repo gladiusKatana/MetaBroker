@@ -35,7 +35,7 @@ import UIKit
             print("appended period to InsuranceHotline titles")
         }
         
-        print("header titles: \(insHotlineHeaderTitles)")
+        //print("header titles: \(insHotlineHeaderTitles)")
         
         return true
     }
