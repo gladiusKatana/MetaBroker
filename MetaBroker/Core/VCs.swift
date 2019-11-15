@@ -9,13 +9,13 @@ var topVC = CollectionVC(viewControllerType: .initial, backgroundColour: UIColor
 var cellGap = CGFloat(0) /// if nonzero, do not make this smaller than: 0.5 (iphone7), or lines drawn inconsistently
 
 
-var insHotlineLayout = //
+var insHotlineLayout =
     CustomFlowLayout(
         embeddedInNavController: true,          ///  if true, it's fullscreen (with a nav bar button to navigate to its collection view controller's view); else it's a window with a custom frame
         customFrame: nil,                       ///  if nil, defaults to a pre-set frame, the app's window frame (as described in above comment)
-        rows: 29, cols: 12,
+        rows: 30, cols: 2,
         lockedHeaderRows: 1, lockedHeaderSections: 1,
-        cellWidth: 60, cellHeight: 40,                  ///  if either parameter is nil, screen width and/or height is autofitted (else, auto-fit scalars below are ignored, ie set to 1.0)
+        cellWidth: nil, cellHeight: 40,                  ///  if either parameter is nil, screen width and/or height is autofitted (else, auto-fit scalars below are ignored, ie set to 1.0)
         autoFitWidthScale: 1, autoFitHeightScale: 1,    ///  if either of these parameters are nil, they default to 1.0
         hSpace: cellGap, vSpace: cellGap,               ///  gaps between the cells
         loadsHorizontally: false,               ///❗️if loadsHorizontally is true, 'rows' look like columns
@@ -28,9 +28,9 @@ var insHotlineVC = CollectionVC(viewControllerType: .first, backgroundColour: de
 var kanetixLayout =
     CustomFlowLayout(
         embeddedInNavController: true,
-        customFrame: globalWindow.frame,
-        rows: 13, cols: 4, lockedHeaderRows: 1, lockedHeaderSections: 1,
-        cellWidth: nil, cellHeight: nil,
+        customFrame: nil,                       /// can be nil or globalWindow.frame, same effect if embedded-in-nav-controller = true
+        rows: 30, cols: 2, lockedHeaderRows: 1, lockedHeaderSections: 1,
+        cellWidth: nil, cellHeight: 40,
         autoFitWidthScale: 1, autoFitHeightScale: 1,
         hSpace: cellGap, vSpace: cellGap,
         loadsHorizontally: false,

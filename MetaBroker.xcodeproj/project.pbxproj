@@ -137,11 +137,11 @@
 		06409BC4237E611F001D9953 /* C */ = {
 			isa = PBXGroup;
 			children = (
-				06409BC5237E611F001D9953 /* popup */,
-				06409BCB237E611F001D9953 /* Tap.swift */,
-				06409BCC237E611F001D9953 /* VCLifecycle.swift */,
 				06409BCD237E611F001D9953 /* CollectionVC.swift */,
+				06409BCC237E611F001D9953 /* VCLifecycle.swift */,
 				06409BCE237E611F001D9953 /* CellPath.swift */,
+				06409BCB237E611F001D9953 /* Tap.swift */,
+				06409BC5237E611F001D9953 /* popup */,
 			);
 			path = C;
 			sourceTree = "<group>";
@@ -151,9 +151,9 @@
 			children = (
 				06409BC6237E611F001D9953 /* TapPopup.swift */,
 				06409BC7237E611F001D9953 /* AddPopup.swift */,
-				06409BC8237E611F001D9953 /* PopupVC.swift */,
-				06409BC9237E611F001D9953 /* PULifeCycle.swift */,
 				06409BCA237E611F001D9953 /* PUCellPath.swift */,
+				06409BC9237E611F001D9953 /* PULifeCycle.swift */,
+				06409BC8237E611F001D9953 /* PopupVC.swift */,
 			);
 			path = popup;
 			sourceTree = "<group>";
@@ -162,10 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				06409BD0237E611F001D9953 /* Notes.swift */,
-				06409BD1237E611F001D9953 /* VCs.swift */,
-				06409BD2237E611F001D9953 /* AppLifecycle.swift */,
 				06409BD3237E611F001D9953 /* Vars.swift */,
+				06409BD1237E611F001D9953 /* VCs.swift */,
 				06409BD4237E611F001D9953 /* AppDelegate.swift */,
+				06409BD2237E611F001D9953 /* AppLifecycle.swift */,
 				06409BD5237E611F001D9953 /* RotateLock.swift */,
 			);
 			path = Core;
@@ -187,9 +187,9 @@
 		06409BDD237E611F001D9953 /* navigation */ = {
 			isa = PBXGroup;
 			children = (
-				06409BDE237E611F001D9953 /* Buttons.swift */,
 				06409BDF237E611F001D9953 /* NavTitle.swift */,
 				06409BE0237E611F001D9953 /* NavBar.swift */,
+				06409BDE237E611F001D9953 /* Buttons.swift */,
 				06409BE1237E611F001D9953 /* SetTopVC.swift */,
 				06409BE2237E611F001D9953 /* Reload.swift */,
 				06409BE3237E611F001D9953 /* GoToVC.swift */,

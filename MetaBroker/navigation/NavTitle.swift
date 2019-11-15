@@ -15,7 +15,7 @@ extension CollectionVC {
                 title = "InsuranceHotline.com"
             }
             else {
-                title = "kanetix.ca"
+                title = "Kanetix.ca"
             }
         }
         
