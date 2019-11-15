@@ -45,6 +45,8 @@
 		06409C11237E611F001D9953 /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BED237E611F001D9953 /* LeftCell.swift */; };
 		06409C12237E611F001D9953 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEE237E611F001D9953 /* BaseCell.swift */; };
 		06409C13237E611F001D9953 /* VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEF237E611F001D9953 /* VCType.swift */; };
+		0648D768237E723100309353 /* IHotlineCol0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648D767237E723100309353 /* IHotlineCol0.swift */; };
+		0648D76A237E7BC800309353 /* IHotlineCol1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648D769237E7BC800309353 /* IHotlineCol1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,8 @@
 		06409BED237E611F001D9953 /* LeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
 		06409BEE237E611F001D9953 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		06409BEF237E611F001D9953 /* VCType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCType.swift; sourceTree = "<group>"; };
+		0648D767237E723100309353 /* IHotlineCol0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlineCol0.swift; sourceTree = "<group>"; };
+		0648D769237E7BC800309353 /* IHotlineCol1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlineCol1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,11 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				06409BCF237E611F001D9953 /* Core */,
+				0648D766237E721000309353 /* forms */,
 				06409BDD237E611F001D9953 /* navigation */,
+				06409BC4237E611F001D9953 /* C */,
 				06409BEB237E611F001D9953 /* M */,
 				06409BE8237E611F001D9953 /* V */,
 				06409BD6237E611F001D9953 /* Vm */,
-				06409BC4237E611F001D9953 /* C */,
 				06409BE4237E611F001D9953 /* Checks */,
 				06409BB9237E5A26001D9953 /* Assets.xcassets */,
 				06409BBB237E5A26001D9953 /* LaunchScreen.storyboard */,
@@ -227,6 +232,15 @@
 			path = M;
 			sourceTree = "<group>";
 		};
+		0648D766237E721000309353 /* forms */ = {
+			isa = PBXGroup;
+			children = (
+				0648D767237E723100309353 /* IHotlineCol0.swift */,
+				0648D769237E7BC800309353 /* IHotlineCol1.swift */,
+			);
+			path = forms;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -307,6 +321,7 @@
 				06409BF4237E611F001D9953 /* PUCellPath.swift in Sources */,
 				06409C10237E611F001D9953 /* Cell.swift in Sources */,
 				06409C04237E611F001D9953 /* Prepare.swift in Sources */,
+				0648D76A237E7BC800309353 /* IHotlineCol1.swift in Sources */,
 				06409C0D237E611F001D9953 /* DeviceType.swift in Sources */,
 				06409BF7237E611F001D9953 /* CollectionVC.swift in Sources */,
 				06409C01237E611F001D9953 /* SizeEnums.swift in Sources */,
@@ -314,6 +329,7 @@
 				06409C08237E611F001D9953 /* SetTopVC.swift in Sources */,
 				06409BFF237E611F001D9953 /* Sizes.swift in Sources */,
 				06409C0B237E611F001D9953 /* TestSquare.swift in Sources */,
+				0648D768237E723100309353 /* IHotlineCol0.swift in Sources */,
 				06409BFD237E611F001D9953 /* AppDelegate.swift in Sources */,
 				06409C12237E611F001D9953 /* BaseCell.swift in Sources */,
 				06409BF3237E611F001D9953 /* PULifeCycle.swift in Sources */,

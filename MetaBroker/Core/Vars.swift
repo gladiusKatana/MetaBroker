@@ -19,6 +19,7 @@ var showConsoleLegend = true
 
 
 var defaultFont = UIFont.systemFont(ofSize: 12, weight: .ultraLight)
+var headerFont = UIFont.systemFont(ofSize: 12, weight: .regular)
 
 
 var currentOrientation = "orientation (landscape or portrait) for prepare-layout logic"
