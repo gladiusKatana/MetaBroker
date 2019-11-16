@@ -15,7 +15,7 @@ var insHotlineLayout =
         customFrame: nil,                       ///  if nil, defaults to a pre-set frame, the app's window frame (as described in above comment)
         rows: 30, cols: 6,
         lockedHeaderRows: 1, lockedHeaderSections: 0,
-        cellWidth: 110, cellHeight: 40,                 ///  if either parameter is nil, screen width and/or height is autofitted (else, auto-fit scalars below are ignored, ie set to 1.0)
+        cellWidth: 120, cellHeight: 40,                 ///  if either parameter is nil, screen width and/or height is autofitted (else, auto-fit scalars below are ignored, ie set to 1.0)
         autoFitWidthScale: 1, autoFitHeightScale: 1,    ///  if either of these parameters are nil, they default to 1.0
         hSpace: cellGap, vSpace: cellGap,               ///  gaps between the cells
         loadsHorizontally: false,               ///❗️if loadsHorizontally is true, 'rows' look like columns

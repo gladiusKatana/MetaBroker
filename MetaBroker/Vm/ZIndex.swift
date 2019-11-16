@@ -6,13 +6,18 @@ extension CustomFlowLayout {
     func setZIndex(row: Int, section: Int, cellAttributes: UICollectionViewLayoutAttributes) {
 
         
-        if row < lockedHeaderRows {
+        if row < lockedHeaderRows && section == 0 {
             cellAttributes.zIndex = 4
         }
         
         
-        if section == 0 && row > 0 {
+        if row < lockedHeaderRows && section > 0 {
             cellAttributes.zIndex = 3
+        }
+        
+        
+        if section == 1 && row > 0 {
+            cellAttributes.zIndex = 2
         }
         
     }

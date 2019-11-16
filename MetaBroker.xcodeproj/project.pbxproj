@@ -42,7 +42,7 @@
 		06409C0E237E611F001D9953 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BE9237E611F001D9953 /* Colours.swift */; };
 		06409C0F237E611F001D9953 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEA237E611F001D9953 /* Animations.swift */; };
 		06409C10237E611F001D9953 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEC237E611F001D9953 /* Cell.swift */; };
-		06409C11237E611F001D9953 /* LeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BED237E611F001D9953 /* LeftCell.swift */; };
+		06409C11237E611F001D9953 /* Left&RightCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BED237E611F001D9953 /* Left&RightCells.swift */; };
 		06409C12237E611F001D9953 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEE237E611F001D9953 /* BaseCell.swift */; };
 		06409C13237E611F001D9953 /* VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEF237E611F001D9953 /* VCType.swift */; };
 		0648D768237E723100309353 /* IHotlineCol0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648D767237E723100309353 /* IHotlineCol0.swift */; };
@@ -87,7 +87,7 @@
 		06409BE9237E611F001D9953 /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = "<group>"; };
 		06409BEA237E611F001D9953 /* Animations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 		06409BEC237E611F001D9953 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		06409BED237E611F001D9953 /* LeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftCell.swift; sourceTree = "<group>"; };
+		06409BED237E611F001D9953 /* Left&RightCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Left&RightCells.swift"; sourceTree = "<group>"; };
 		06409BEE237E611F001D9953 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		06409BEF237E611F001D9953 /* VCType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCType.swift; sourceTree = "<group>"; };
 		0648D767237E723100309353 /* IHotlineCol0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlineCol0.swift; sourceTree = "<group>"; };
@@ -225,7 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				06409BEC237E611F001D9953 /* Cell.swift */,
-				06409BED237E611F001D9953 /* LeftCell.swift */,
+				06409BED237E611F001D9953 /* Left&RightCells.swift */,
 				06409BEE237E611F001D9953 /* BaseCell.swift */,
 				06409BEF237E611F001D9953 /* VCType.swift */,
 			);
@@ -342,7 +342,7 @@
 				06409C07237E611F001D9953 /* NavBar.swift in Sources */,
 				06409BF1237E611F001D9953 /* AddPopup.swift in Sources */,
 				06409BF0237E611F001D9953 /* TapPopup.swift in Sources */,
-				06409C11237E611F001D9953 /* LeftCell.swift in Sources */,
+				06409C11237E611F001D9953 /* Left&RightCells.swift in Sources */,
 				06409C13237E611F001D9953 /* VCType.swift in Sources */,
 				06409BFB237E611F001D9953 /* AppLifecycle.swift in Sources */,
 				06409C03237E611F001D9953 /* Layout.swift in Sources */,
