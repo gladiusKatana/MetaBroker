@@ -12,10 +12,10 @@ extension CollectionVC {
         }
         else {
             if viewControllerType == .first {
-                title = "InsuranceHotline.com"
+                title = "[MetaBroker] InsuranceHotline.com"
             }
             else {
-                title = "Kanetix.ca"
+                title = "[MetaBroker] Kanetix.ca"
             }
         }
         

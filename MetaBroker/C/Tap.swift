@@ -32,6 +32,7 @@ extension CollectionVC {
             
             customAnimation(cell, withDuration: 1, delay: 0, newColour: lightNavy, initialColour: cell.cellColour)
             
+            
 //            DispatchQueue.main.asyncAfter(deadline: .now()) {
 //                self.presentPopupView(column: column, row: row)
 //            }

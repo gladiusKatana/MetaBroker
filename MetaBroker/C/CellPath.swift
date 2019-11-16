@@ -5,16 +5,12 @@ extension CollectionVC {
     
     override func collectionView(_ collectionView: UICollectionView,
                                  cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
         let row = indexPath.item; let column = indexPath.section
         
-        if column == 0 && row == 0 {   /// cell with text (and title label constraints) left-aligned
+        if column == 0 && row == 0 {        /// cell with text (and title label constraints) left-aligned
             return registerAndReturnLeftCell(collectionView, at: indexPath)
         }
-        else if column == 0 && row > 0 {   /// cell with text (and title label constraints) right-aligned
-            return registerAndReturnLeftCell(collectionView, at: indexPath)
-        }
-        else if column == 1 && row > 0 {   /// cell with text (and title label constraints) right-aligned
+        else if column == 1 && row > 0 {    /// cell with text (and title label constraints) right-aligned
             return registerAndReturnRightCell(collectionView, at: indexPath)
         }
         else {
@@ -22,73 +18,28 @@ extension CollectionVC {
         }
     }
     
-    func doRestOfCellProcessing(cell: CustomCell, indexPath: IndexPath, row: Int, column: Int) -> CustomCell {
-        let customLayout = downcastLayout!
-        let headerRows = customLayout.lockedHeaderRows; let headerSections = customLayout.lockedHeaderSections
+    func registerAndReturnCell(_ collectionView: UICollectionView, at indexPath: IndexPath) -> CustomCell {
+        collectionView.register(CustomCell.self, forCellWithReuseIdentifier: CustomCell.reuseIdentifier)
         
-        /*if currentOrientation == "landscape" { /// only needed if vc has a lot of cells, and its cell dimensions are auto-fitted
-         cell.titleLabel.font = UIFont.systemFont(ofSize: CGFloat(8), weight: .ultraLight)
-         }*/
-        
-        if column < headerSections || row < headerRows {
-            cell.backgroundColor = headerColour
-        }  else {
-            cell.backgroundColor = cellDefaultColour;  cell.cellColour = cellDefaultColour
-            cell.titleLabel.text = "_" //"\(column),\(row)"
-        }
-        
-        if column == 1 {
-            cell.backgroundColor = headerColour; cell.titleLabel.text = ""
-        }
-        
+        var cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomCell.reuseIdentifier, for: indexPath) as! CustomCell
+        cell = setupCells(cell, row: indexPath.row, column: indexPath.section)
         return cell
     }
     
-    func doRestOfLeftCellProcessing(cell: LeftAlignedCell, indexPath: IndexPath, row: Int, column: Int) -> LeftAlignedCell  {
-        cell.backgroundColor = headerColour
-        cell.titleLabel.font = UIFont.systemFont(ofSize: 11, weight: .ultraLight)
+    func registerAndReturnLeftCell(_ collectionView: UICollectionView, at indexPath: IndexPath) -> LeftAlignedCell {
+        collectionView.register(LeftAlignedCell.self, forCellWithReuseIdentifier: LeftAlignedCell.reuseIdentifier)
         
-        cell.titleLabel.textAlignment = .left
-        cell.titleLabel.numberOfLines = 0
-        cell.titleLabel.lineBreakMode = .byCharWrapping
-        
-        if column == 0 { /// to do this in column 1, you need to rewrite the layout attributes (zIndex)
-            if row == 0 {cell.titleLabel.text = " Enter vehicle, license date, & insurance info (saved to your device only)"}
-//            else {
-//                if viewControllerType == .first {
-//                    cell.titleLabel.text = insHotlineHeaderTitles[row]
-//                    cell.titleLabel.font = headerFont
-//                    cell.titleLabel.textColor = .black
-//                }
-//            }
-        }
-        
-        return cell
+        var leftCell = collectionView.dequeueReusableCell(withReuseIdentifier: LeftAlignedCell.reuseIdentifier, for: indexPath) as! LeftAlignedCell
+        leftCell = setupLeftCells(leftCell, row: indexPath.row, column: indexPath.section)
+        return leftCell
     }
     
-    func doRestOfRightCellProcessing(cell: RightAlignedCell, indexPath: IndexPath, row: Int, column: Int) -> RightAlignedCell  {
-        cell.backgroundColor = headerColour
-        cell.titleLabel.font = UIFont.systemFont(ofSize: 11, weight: .ultraLight)
+    func registerAndReturnRightCell(_ collectionView: UICollectionView, at indexPath: IndexPath) -> RightAlignedCell {
+        collectionView.register(RightAlignedCell.self, forCellWithReuseIdentifier: RightAlignedCell.reuseIdentifier)
         
-        cell.titleLabel.textAlignment = .right
-        cell.titleLabel.numberOfLines = 0
-        cell.titleLabel.lineBreakMode = .byCharWrapping
-        
-        if column == 1 { /// to do this in column 1, you need to rewrite the layout attributes (zIndex)
-            if row == 0 {
-//                cell.titleLabel.text = " Enter vehicle, license date, & insurance info (saved to your device only)"
-            }
-            else {
-                if viewControllerType == .first {
-                    cell.titleLabel.text = insHotlineHeaderTitles[row]
-                    cell.titleLabel.font = headerFont
-                    cell.titleLabel.textColor = .black
-                }
-            }
-        }
-        
-        return cell
+        var rightCell = collectionView.dequeueReusableCell(withReuseIdentifier: RightAlignedCell.reuseIdentifier, for: indexPath) as! RightAlignedCell
+        rightCell = setupRightCells(rightCell, row: indexPath.row, column: indexPath.section)
+        return rightCell
     }
-    
 }
 

@@ -10,9 +10,9 @@ extension CollectionVC {
     }
     
     
-    @objc func reloadCVWrapperMethod() { print("*reloaded via button")
-        reloadCV()
-    }
+//    @objc func reloadCVWrapperMethod() { print("*reloaded via button")
+//        reloadCV()
+//    }
     
     
     @objc func wrapperMethodforSecondVC() {

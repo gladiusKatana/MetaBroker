@@ -8,11 +8,11 @@ extension CollectionVC {
         let firstButton = setupButton(selector: #selector(wrapperMethodforFirstVC), title: "timetableImage")
         let secondButton = setupButton(selector: #selector(wrapperMethodforSecondVC), title: "calendarImage")
         
-        let reloadButton = setupButton(selector: #selector(reloadCVWrapperMethod), title: "reloadButton") /// this button is hidden, only used for debugging
+//        let reloadButton = setupButton(selector: #selector(reloadCVWrapperMethod), title: "reloadButton") /// this button is hidden, only used for debugging
         
         var barButtonColours = [UIColor]()
         
-        let buttons = [secondButton, firstButton, reloadButton] /// buttons go from first... nth from left to right; reload button is invisible
+        let buttons = [secondButton, firstButton/*, reloadButton*/] /// buttons go from first... nth from left to right; reload button is invisible
         
         navigationItem.rightBarButtonItems = buttons
         
@@ -33,9 +33,9 @@ extension CollectionVC {
                 button.tintColor = greyout
             }
             
-            if button == reloadButton {
-                button.tintColor = .clear
-            }
+//            if button == reloadButton {
+//                button.tintColor = .clear
+//            }
             
         }
     }

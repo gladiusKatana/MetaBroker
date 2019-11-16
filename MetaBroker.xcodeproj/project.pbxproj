@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063D4570237F92E3008F6506 /* CellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D456F237F92E3008F6506 /* CellSetup.swift */; };
 		06409BBA237E5A26001D9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06409BB9237E5A26001D9953 /* Assets.xcassets */; };
 		06409BBD237E5A26001D9953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06409BBB237E5A26001D9953 /* LaunchScreen.storyboard */; };
 		06409BF0237E611F001D9953 /* TapPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BC6237E611F001D9953 /* TapPopup.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		063D456F237F92E3008F6506 /* CellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSetup.swift; sourceTree = "<group>"; };
 		06409BAD237E5A24001D9953 /* MetaBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06409BB9237E5A26001D9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06409BBC237E5A26001D9953 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				06409BCD237E611F001D9953 /* CollectionVC.swift */,
 				06409BCC237E611F001D9953 /* VCLifecycle.swift */,
 				06409BCE237E611F001D9953 /* CellPath.swift */,
+				063D456F237F92E3008F6506 /* CellSetup.swift */,
 				06409BCB237E611F001D9953 /* Tap.swift */,
 				06409BC5237E611F001D9953 /* popup */,
 			);
@@ -325,6 +328,7 @@
 				06409C0D237E611F001D9953 /* DeviceType.swift in Sources */,
 				06409BF7237E611F001D9953 /* CollectionVC.swift in Sources */,
 				06409C01237E611F001D9953 /* SizeEnums.swift in Sources */,
+				063D4570237F92E3008F6506 /* CellSetup.swift in Sources */,
 				06409C0E237E611F001D9953 /* Colours.swift in Sources */,
 				06409C08237E611F001D9953 /* SetTopVC.swift in Sources */,
 				06409BFF237E611F001D9953 /* Sizes.swift in Sources */,
