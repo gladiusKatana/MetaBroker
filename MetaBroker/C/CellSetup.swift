@@ -15,6 +15,9 @@ extension CollectionVC {
             if column == 2 {
                 cell.titleLabel.text = insHotlineFormContentsOne[row]
             }
+            if column == 3 {
+                cell.titleLabel.text = insHotlineFormContentsTwo[row]
+            }
         }
         
         if column == 0 {    /// a bit of an exception from the typical boilerplate style from  https://github.com/gladiusKatana/collection-view-boilerplate
