@@ -1,4 +1,4 @@
-// IHotlineCol0     ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// IHotlnColumn0    ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 var insHotlineHeaderTitles = ["",
