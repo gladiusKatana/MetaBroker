@@ -9,12 +9,15 @@ extension CollectionVC {
         
         if column < headerSections || row < headerRows {
             cell.backgroundColor = headerColour
-        }  else {
+        }
+        else {
             cell.backgroundColor = cellDefaultColour;  cell.cellColour = cellDefaultColour
-            cell.titleLabel.text = "_" //"\(column),\(row)"
+            if column == 2 {
+                cell.titleLabel.text = insHotlineFormContentsOne[row]
+            }
         }
         
-        if column == 0 {    /// a bit of an exception from the typical boilerplate from  https://github.com/gladiusKatana/collection-view-boilerplate
+        if column == 0 {    /// a bit of an exception from the typical boilerplate style from  https://github.com/gladiusKatana/collection-view-boilerplate
             cell.backgroundColor = headerColour; cell.titleLabel.text = ""
         }
         

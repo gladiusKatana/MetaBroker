@@ -28,7 +28,7 @@ import UIKit
         
         getOrientationAtLaunch()                                    ; print("launching on \(modelName) in \(launchOrientation) orientation")
         
-        print("diff=\(insHotlineLayout.rows - insHotlineHeaderTitles.count)")
+        //print("diff=\(insHotlineLayout.rows - insHotlineHeaderTitles.count)")
         
         for _ in (0 ..< insHotlineLayout.rows - insHotlineHeaderTitles.count) { /// appends default string "." to any field entries not written into files in  forms  group
             insHotlineHeaderTitles.append("string")

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0611AA9623825EDD003E7F39 /* IHotlnColumn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */; };
 		063D4570237F92E3008F6506 /* CellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D456F237F92E3008F6506 /* CellSetup.swift */; };
 		06409BBA237E5A26001D9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06409BB9237E5A26001D9953 /* Assets.xcassets */; };
 		06409BBD237E5A26001D9953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06409BBB237E5A26001D9953 /* LaunchScreen.storyboard */; };
@@ -51,6 +52,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn2.swift; sourceTree = "<group>"; };
 		063D456F237F92E3008F6506 /* CellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSetup.swift; sourceTree = "<group>"; };
 		06409BAD237E5A24001D9953 /* MetaBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06409BB9237E5A26001D9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -127,7 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				06409BCF237E611F001D9953 /* Core */,
-				0648D766237E721000309353 /* insHotlineForms */,
+				0648D766237E721000309353 /* insHotlineForm */,
 				06409BDD237E611F001D9953 /* navigation */,
 				06409BC4237E611F001D9953 /* C */,
 				06409BEB237E611F001D9953 /* M */,
@@ -235,13 +237,14 @@
 			path = M;
 			sourceTree = "<group>";
 		};
-		0648D766237E721000309353 /* insHotlineForms */ = {
+		0648D766237E721000309353 /* insHotlineForm */ = {
 			isa = PBXGroup;
 			children = (
 				0648D767237E723100309353 /* IHotlnColumn0.swift */,
 				0648D769237E7BC800309353 /* IHotlnColumn1.swift */,
+				0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */,
 			);
-			path = insHotlineForms;
+			path = insHotlineForm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +345,7 @@
 				06409BFA237E611F001D9953 /* VCs.swift in Sources */,
 				06409BF5237E611F001D9953 /* Tap.swift in Sources */,
 				06409BFC237E611F001D9953 /* Vars.swift in Sources */,
+				0611AA9623825EDD003E7F39 /* IHotlnColumn2.swift in Sources */,
 				06409C0A237E611F001D9953 /* GoToVC.swift in Sources */,
 				06409C07237E611F001D9953 /* NavBar.swift in Sources */,
 				06409BF1237E611F001D9953 /* AddPopup.swift in Sources */,
