@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0611AA9623825EDD003E7F39 /* IHotlnColumn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */; };
+		06135E0123833878003420DF /* IHotlnColumn3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06135E0023833878003420DF /* IHotlnColumn3.swift */; };
 		063D4570237F92E3008F6506 /* CellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D456F237F92E3008F6506 /* CellSetup.swift */; };
 		06409BBA237E5A26001D9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06409BB9237E5A26001D9953 /* Assets.xcassets */; };
 		06409BBD237E5A26001D9953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06409BBB237E5A26001D9953 /* LaunchScreen.storyboard */; };
@@ -53,6 +54,7 @@
 
 /* Begin PBXFileReference section */
 		0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn2.swift; sourceTree = "<group>"; };
+		06135E0023833878003420DF /* IHotlnColumn3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn3.swift; sourceTree = "<group>"; };
 		063D456F237F92E3008F6506 /* CellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSetup.swift; sourceTree = "<group>"; };
 		06409BAD237E5A24001D9953 /* MetaBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06409BB9237E5A26001D9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				0648D767237E723100309353 /* IHotlnColumn0.swift */,
 				0648D769237E7BC800309353 /* IHotlnColumn1.swift */,
 				0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */,
+				06135E0023833878003420DF /* IHotlnColumn3.swift */,
 			);
 			path = insHotlineForm;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 				06409BF4237E611F001D9953 /* PUCellPath.swift in Sources */,
 				06409C10237E611F001D9953 /* Cell.swift in Sources */,
 				06409C04237E611F001D9953 /* Prepare.swift in Sources */,
+				06135E0123833878003420DF /* IHotlnColumn3.swift in Sources */,
 				0648D76A237E7BC800309353 /* IHotlnColumn1.swift in Sources */,
 				06409C0D237E611F001D9953 /* DeviceType.swift in Sources */,
 				06409BF7237E611F001D9953 /* CollectionVC.swift in Sources */,
