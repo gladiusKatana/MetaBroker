@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0611AA9623825EDD003E7F39 /* IHotlnColumn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */; };
-		06135E0123833878003420DF /* IHotlnColumn3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06135E0023833878003420DF /* IHotlnColumn3.swift */; };
 		06135E0323833CC5003420DF /* iHFormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06135E0223833CC5003420DF /* iHFormFields.swift */; };
 		063D4570237F92E3008F6506 /* CellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D456F237F92E3008F6506 /* CellSetup.swift */; };
 		06409BBA237E5A26001D9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06409BB9237E5A26001D9953 /* Assets.xcassets */; };
@@ -49,13 +47,9 @@
 		06409C11237E611F001D9953 /* Left&RightCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BED237E611F001D9953 /* Left&RightCells.swift */; };
 		06409C12237E611F001D9953 /* BaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEE237E611F001D9953 /* BaseCell.swift */; };
 		06409C13237E611F001D9953 /* VCType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BEF237E611F001D9953 /* VCType.swift */; };
-		0648D768237E723100309353 /* IHotlnColumn0.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648D767237E723100309353 /* IHotlnColumn0.swift */; };
-		0648D76A237E7BC800309353 /* IHotlnColumn1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0648D769237E7BC800309353 /* IHotlnColumn1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn2.swift; sourceTree = "<group>"; };
-		06135E0023833878003420DF /* IHotlnColumn3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn3.swift; sourceTree = "<group>"; };
 		06135E0223833CC5003420DF /* iHFormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHFormFields.swift; sourceTree = "<group>"; };
 		063D456F237F92E3008F6506 /* CellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSetup.swift; sourceTree = "<group>"; };
 		06409BAD237E5A24001D9953 /* MetaBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,8 +92,6 @@
 		06409BED237E611F001D9953 /* Left&RightCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Left&RightCells.swift"; sourceTree = "<group>"; };
 		06409BEE237E611F001D9953 /* BaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCell.swift; sourceTree = "<group>"; };
 		06409BEF237E611F001D9953 /* VCType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCType.swift; sourceTree = "<group>"; };
-		0648D767237E723100309353 /* IHotlnColumn0.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn0.swift; sourceTree = "<group>"; };
-		0648D769237E7BC800309353 /* IHotlnColumn1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,10 +236,6 @@
 		0648D766237E721000309353 /* insHotlineForm */ = {
 			isa = PBXGroup;
 			children = (
-				0648D767237E723100309353 /* IHotlnColumn0.swift */,
-				0648D769237E7BC800309353 /* IHotlnColumn1.swift */,
-				0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */,
-				06135E0023833878003420DF /* IHotlnColumn3.swift */,
 				06135E0223833CC5003420DF /* iHFormFields.swift */,
 			);
 			path = insHotlineForm;
@@ -333,8 +321,6 @@
 				06409BF4237E611F001D9953 /* PUCellPath.swift in Sources */,
 				06409C10237E611F001D9953 /* Cell.swift in Sources */,
 				06409C04237E611F001D9953 /* Prepare.swift in Sources */,
-				06135E0123833878003420DF /* IHotlnColumn3.swift in Sources */,
-				0648D76A237E7BC800309353 /* IHotlnColumn1.swift in Sources */,
 				06409C0D237E611F001D9953 /* DeviceType.swift in Sources */,
 				06409BF7237E611F001D9953 /* CollectionVC.swift in Sources */,
 				06409C01237E611F001D9953 /* SizeEnums.swift in Sources */,
@@ -343,7 +329,6 @@
 				06409C08237E611F001D9953 /* SetTopVC.swift in Sources */,
 				06409BFF237E611F001D9953 /* Sizes.swift in Sources */,
 				06409C0B237E611F001D9953 /* TestSquare.swift in Sources */,
-				0648D768237E723100309353 /* IHotlnColumn0.swift in Sources */,
 				06409BFD237E611F001D9953 /* AppDelegate.swift in Sources */,
 				06409C12237E611F001D9953 /* BaseCell.swift in Sources */,
 				06409BF3237E611F001D9953 /* PULifeCycle.swift in Sources */,
@@ -352,7 +337,6 @@
 				06409BFA237E611F001D9953 /* VCs.swift in Sources */,
 				06409BF5237E611F001D9953 /* Tap.swift in Sources */,
 				06409BFC237E611F001D9953 /* Vars.swift in Sources */,
-				0611AA9623825EDD003E7F39 /* IHotlnColumn2.swift in Sources */,
 				06409C0A237E611F001D9953 /* GoToVC.swift in Sources */,
 				06409C07237E611F001D9953 /* NavBar.swift in Sources */,
 				06409BF1237E611F001D9953 /* AddPopup.swift in Sources */,

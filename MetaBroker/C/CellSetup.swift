@@ -7,22 +7,13 @@ extension CollectionVC {
         let customLayout = downcastLayout!
         let headerRows = customLayout.lockedHeaderRows; let headerSections = customLayout.lockedHeaderSections
         
+        let col = column > 0 ? column - 1 : column
+        
         if column < headerSections || row < headerRows {
             cell.backgroundColor = headerColour
         }
         else {
             cell.backgroundColor = cellDefaultColour;  cell.cellColour = cellDefaultColour
-//            if column == 2 {
-//                cell.titleLabel.text = insHotlineFormContentsOne[row]
-//            }
-//            if column == 3 {
-//                cell.titleLabel.text = insHotlineFormContentsTwo[row]
-//            }
-//            if column == 4 {
-//                cell.titleLabel.text = insHotlineFormContentsThree[row]
-//            }
-            
-            var col = column > 0 ? column - 1 : column
             cell.titleLabel.text = iHFormFields[row][col]
         }
         
@@ -44,7 +35,7 @@ extension CollectionVC {
         setupTitleCells(cell, row: row, column: column)
         
         if viewControllerType == .first {
-            cell.titleLabel.text = insHotlineHeaderTitles[row]
+            cell.titleLabel.text = iHFormFields[row][0]
         }
         
         return cell
@@ -60,6 +51,5 @@ extension CollectionVC {
         cell.titleLabel.font = headerFont
         cell.titleLabel.textColor = .black
     }
-    
 }
 

@@ -28,14 +28,12 @@ import UIKit
         
         getOrientationAtLaunch()                                    ; print("launching on \(modelName) in \(launchOrientation) orientation")
         
-        //print("diff=\(insHotlineLayout.rows - insHotlineHeaderTitles.count)")
+//        for _ in (0 ..< insHotlineLayout.rows - iHFormFields.count) { /// appends default empty strings to contents arrays if they are too short
+//            iHFormFields.append("", "", "", "", "")
+//            print("appended period to InsuranceHotline titles")
+//        }
         
-        for _ in (0 ..< insHotlineLayout.rows - insHotlineHeaderTitles.count) { /// appends default string "." to any field entries not written into files in  forms  group
-            insHotlineHeaderTitles.append("string")
-            print("appended period to InsuranceHotline titles")
-        }
-        
-        //print("header titles: \(insHotlineHeaderTitles)")
+        //print("Insurance Hotline field contents: \(iHFormFields)")
         
         return true
     }
