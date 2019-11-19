@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0611AA9623825EDD003E7F39 /* IHotlnColumn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */; };
 		06135E0123833878003420DF /* IHotlnColumn3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06135E0023833878003420DF /* IHotlnColumn3.swift */; };
+		06135E0323833CC5003420DF /* iHFormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06135E0223833CC5003420DF /* iHFormFields.swift */; };
 		063D4570237F92E3008F6506 /* CellSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063D456F237F92E3008F6506 /* CellSetup.swift */; };
 		06409BBA237E5A26001D9953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06409BB9237E5A26001D9953 /* Assets.xcassets */; };
 		06409BBD237E5A26001D9953 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06409BBB237E5A26001D9953 /* LaunchScreen.storyboard */; };
@@ -55,6 +56,7 @@
 /* Begin PBXFileReference section */
 		0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn2.swift; sourceTree = "<group>"; };
 		06135E0023833878003420DF /* IHotlnColumn3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHotlnColumn3.swift; sourceTree = "<group>"; };
+		06135E0223833CC5003420DF /* iHFormFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iHFormFields.swift; sourceTree = "<group>"; };
 		063D456F237F92E3008F6506 /* CellSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSetup.swift; sourceTree = "<group>"; };
 		06409BAD237E5A24001D9953 /* MetaBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetaBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06409BB9237E5A26001D9953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				0648D769237E7BC800309353 /* IHotlnColumn1.swift */,
 				0611AA9523825EDD003E7F39 /* IHotlnColumn2.swift */,
 				06135E0023833878003420DF /* IHotlnColumn3.swift */,
+				06135E0223833CC5003420DF /* iHFormFields.swift */,
 			);
 			path = insHotlineForm;
 			sourceTree = "<group>";
@@ -353,6 +356,7 @@
 				06409C0A237E611F001D9953 /* GoToVC.swift in Sources */,
 				06409C07237E611F001D9953 /* NavBar.swift in Sources */,
 				06409BF1237E611F001D9953 /* AddPopup.swift in Sources */,
+				06135E0323833CC5003420DF /* iHFormFields.swift in Sources */,
 				06409BF0237E611F001D9953 /* TapPopup.swift in Sources */,
 				06409C11237E611F001D9953 /* Left&RightCells.swift in Sources */,
 				06409C13237E611F001D9953 /* VCType.swift in Sources */,

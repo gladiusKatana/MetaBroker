@@ -12,15 +12,18 @@ extension CollectionVC {
         }
         else {
             cell.backgroundColor = cellDefaultColour;  cell.cellColour = cellDefaultColour
-            if column == 2 {
-                cell.titleLabel.text = insHotlineFormContentsOne[row]
-            }
-            if column == 3 {
-                cell.titleLabel.text = insHotlineFormContentsTwo[row]
-            }
-            if column == 4 {
-                cell.titleLabel.text = insHotlineFormContentsThree[row]
-            }
+//            if column == 2 {
+//                cell.titleLabel.text = insHotlineFormContentsOne[row]
+//            }
+//            if column == 3 {
+//                cell.titleLabel.text = insHotlineFormContentsTwo[row]
+//            }
+//            if column == 4 {
+//                cell.titleLabel.text = insHotlineFormContentsThree[row]
+//            }
+            
+            var col = column > 0 ? column - 1 : column
+            cell.titleLabel.text = iHFormFields[row][col]
         }
         
         if column == 0 {    /// a bit of an exception from the typical boilerplate style from  https://github.com/gladiusKatana/collection-view-boilerplate
