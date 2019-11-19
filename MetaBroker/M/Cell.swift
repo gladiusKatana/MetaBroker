@@ -7,6 +7,8 @@ class CustomCell: BaseCell {
     
     static let popupReuseIdentifier = "CustomPopupCell"
     
+    var inputType = InputType.notAssigned
+    
     
     override init(frame: CGRect) {
         

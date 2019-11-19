@@ -15,6 +15,7 @@ extension CollectionVC {
         else {
             cell.backgroundColor = cellDefaultColour;  cell.cellColour = cellDefaultColour
             cell.titleLabel.text = iHFormFields[row][col]
+            assignInputTypesTo(cell)
         }
         
         if column == 0 {    /// a bit of an exception from the typical boilerplate style from  https://github.com/gladiusKatana/collection-view-boilerplate

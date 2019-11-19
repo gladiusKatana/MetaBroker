@@ -16,6 +16,10 @@ extension CollectionVC {
             
             //print("selected cell at index path \(indexPath)")
             
+            if let customCell = cell as? CustomCell {
+                print("cell input mode: \(customCell.inputType)")
+            }
+            
             
             //            let printCellAlso = false
             //
