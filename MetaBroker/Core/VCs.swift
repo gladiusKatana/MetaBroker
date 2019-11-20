@@ -45,7 +45,7 @@ var popupMenuLayout =
     CustomFlowLayout(
         embeddedInNavController: false,
         customFrame: nil,
-        rows: 10, cols: 1, lockedHeaderRows: 1, lockedHeaderSections: 0,
+        rows: 10, cols: 1, lockedHeaderRows: 0, lockedHeaderSections: 0,
         cellWidth: 0, cellHeight: 0,            /// these get reset anyway (based on first view controller cell sizes), when the view controller with this layout gets presented
         autoFitWidthScale: nil, autoFitHeightScale: nil,
         hSpace: cellGap, vSpace: cellGap,

@@ -37,10 +37,11 @@ extension CollectionVC {
             popupMenuViewController.downcastLayout?.customFrame = popupCollectionViewFrame
             popupMenuViewController.collectionView.frame = popupCollectionViewFrame
             
-            let hscale = insHotlineVC.downcastLayout!.autoFitHeightScale!     //* make sure this is extensible (ie,  if column >= 6 )
-            
-            popupMenuViewController.collectionView?.scrollIndicatorInsets =
-                UIEdgeInsets(top: popupMenuViewController.downcastLayout!.cellHeight! * hscale, left: 0, bottom: 0, right: 0)
+            /// scroll indicator insets, below, are also set in the popup menu's view-did-appear
+//            let hscale = insHotlineVC.downcastLayout!.autoFitHeightScale!     //* make sure this is extensible (ie,  if column >= 6 )
+//            let popupLayout = popupMenuViewController.downcastLayout!
+//            popupMenuViewController.collectionView?.scrollIndicatorInsets =
+//                UIEdgeInsets(top: popupLayout.cellHeight! * hscale * CGFloat(popupLayout.lockedHeaderRows), left: 0, bottom: 0, right: 0)
             
             popupMenuViewController.collectionView?.scrollToItem(at: IndexPath(row: 0, section: 0), at: .bottom, animated: false)
             popupMenuViewController.collectionView.isUserInteractionEnabled = true
