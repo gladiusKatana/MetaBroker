@@ -19,9 +19,16 @@ extension CollectionVC {
             popupMenuLayout.cellHeight = cellHeight
             
             let cols = CGFloat(popupMenuLayout.cols)
-            var x = cellWidth * CGFloat(layout.lockedHeaderSections + 1)
-            var y = CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(layout.lockedHeaderRows + 1)
             let wid = cellWidth * cols * widthMultiplier
+            
+            let ip = IndexPath(row: row, section: column)
+            let attribute = UICollectionViewLayoutAttributes(forCellWith: ip)
+            
+            var x = attribute.frame.minX + (globalWindow.frame.width - wid) / 2
+            var y = attribute.frame.minY + CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(row + 1)
+            
+//            var x = cellWidth * CGFloat(column)
+//            var y = CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(row)
             
             if column >= 6 {x = cellWidth * CGFloat(column - 2)}
             if row > 22 {y = CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(row)}

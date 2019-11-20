@@ -20,26 +20,24 @@ extension CollectionVC {
                 print("cell input mode: \(customCell.inputType)")
             }
             
-            
             //            let printCellAlso = false
             //
             //            if printCellAlso {
             //                print("cell: \(cell)")  /// This causes a warning if bool is false, but that's OK (you probably don't want to print the cell itself but you can if you want)
             //            }
             
-            
             guard let cell = cell as? CustomCell else {
                 //print("tapped a left-aligned or other type of cell")
                 return
             }
             
-            
             customAnimation(cell, withDuration: 1, delay: 0, newColour: lightNavy, initialColour: cell.cellColour)
             
-            
-//            DispatchQueue.main.asyncAfter(deadline: .now()) {
-//                self.presentPopupView(column: column, row: row)
-//            }
+            if cell.inputType == .dropDownMenu {
+                DispatchQueue.main.asyncAfter(deadline: .now()) {
+                    self.presentPopupView(column: column, row: row)
+                }
+            }
             
         }
     }
