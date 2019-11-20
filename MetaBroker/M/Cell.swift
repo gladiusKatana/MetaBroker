@@ -3,12 +3,13 @@ import UIKit
 
 class CustomCell: BaseCell {
     
+    
     static let reuseIdentifier = "CustomCell"
     
     static let popupReuseIdentifier = "CustomPopupCell"
     
     var inputType = InputType.notAssigned
-    
+
     
     override init(frame: CGRect) {
         

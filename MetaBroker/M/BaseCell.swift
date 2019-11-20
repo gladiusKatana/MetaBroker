@@ -3,6 +3,7 @@ import UIKit
 
 class BaseCell: UICollectionViewCell {
     
+    
     lazy var titleLabel = UILabel()
     
     var cellColour = UIColor.clear

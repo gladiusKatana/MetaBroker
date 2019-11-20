@@ -27,21 +27,12 @@ extension CollectionVC {
             var x = attribute.frame.minX + (globalWindow.frame.width - wid) / 2
             var y = attribute.frame.minY + CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(row + 1)
             
-//            var x = cellWidth * CGFloat(column)
-//            var y = CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(row)
-            
             if column >= 6 {x = cellWidth * CGFloat(column - 2)}
             if row > 22 {y = CGFloat(navBarHeight + statusBarHeight) + cellHeight * CGFloat(row)}
             
             let popupCollectionViewFrame = CGRect(x: x, y: y, width: wid, height: cellHeight * 5)
             popupMenuViewController.downcastLayout?.customFrame = popupCollectionViewFrame
             popupMenuViewController.collectionView.frame = popupCollectionViewFrame
-            
-            /// scroll indicator insets, below, are also set in the popup menu's view-did-appear
-//            let hscale = insHotlineVC.downcastLayout!.autoFitHeightScale!     //* make sure this is extensible (ie,  if column >= 6 )
-//            let popupLayout = popupMenuViewController.downcastLayout!
-//            popupMenuViewController.collectionView?.scrollIndicatorInsets =
-//                UIEdgeInsets(top: popupLayout.cellHeight! * hscale * CGFloat(popupLayout.lockedHeaderRows), left: 0, bottom: 0, right: 0)
             
             popupMenuViewController.collectionView?.scrollToItem(at: IndexPath(row: 0, section: 0), at: .bottom, animated: false)
             popupMenuViewController.collectionView.isUserInteractionEnabled = true

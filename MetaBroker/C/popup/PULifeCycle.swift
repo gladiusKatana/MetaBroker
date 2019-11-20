@@ -19,8 +19,8 @@ extension PopupMenuVC {
         super.viewDidAppear(animated)
         
         let hscale = insHotlineVC.downcastLayout!.autoFitHeightScale
-        let layout = self.downcastLayout!
-        collectionView?.scrollIndicatorInsets = UIEdgeInsets(top: layout.cellHeight! * hscale! * CGFloat(layout.lockedHeaderRows),
+        let popupLayout = self.downcastLayout!
+        collectionView?.scrollIndicatorInsets = UIEdgeInsets(top: popupLayout.cellHeight! * hscale! * CGFloat(popupLayout.lockedHeaderRows),
                                                              left: 0, bottom: 0, right: 0)
     }
     

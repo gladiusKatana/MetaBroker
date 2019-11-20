@@ -3,10 +3,7 @@ import UIKit
 
 class RightAlignedCell: BaseCell {
     
-    
     static let reuseIdentifier = "CustomRightAlignedCell"
-    
-    
     
     override init(frame: CGRect) {
         
@@ -24,11 +21,9 @@ class RightAlignedCell: BaseCell {
                                          toItem: self, attribute: .centerY, multiplier: 1, constant: 0))
     }
     
-    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }
 
 
@@ -55,5 +50,4 @@ class LeftAlignedCell: BaseCell {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
 }

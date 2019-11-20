@@ -183,12 +183,12 @@
 		06409BD6237E611F001D9953 /* Vm */ = {
 			isa = PBXGroup;
 			children = (
-				06409BD7237E611F001D9953 /* Sizes.swift */,
+				06409BDB237E611F001D9953 /* Layout.swift */,
 				06409BD8237E611F001D9953 /* Attributes.swift */,
+				06409BDC237E611F001D9953 /* Prepare.swift */,
+				06409BD7237E611F001D9953 /* Sizes.swift */,
 				06409BD9237E611F001D9953 /* SizeEnums.swift */,
 				06409BDA237E611F001D9953 /* ZIndex.swift */,
-				06409BDB237E611F001D9953 /* Layout.swift */,
-				06409BDC237E611F001D9953 /* Prepare.swift */,
 			);
 			path = Vm;
 			sourceTree = "<group>";
