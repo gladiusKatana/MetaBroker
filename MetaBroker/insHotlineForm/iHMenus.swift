@@ -3,7 +3,7 @@ import UIKit
 
 var iHVehicleYearOptions = [Int]()
 
-var vehicleMakeOptions = ["Acura", "Alfa Romeo", "Aston Martin", "Audi", "Bentley",
+var iHVehicleMakeOptions = ["Acura", "Alfa Romeo", "Aston Martin", "Audi", "Bentley",
                           "BMW", "Buick", "Cadillac", "Chevrolet", "Chrysler",
                           "Dodge", "Ferrari", "Fiat", "Ford", "GMC",
                           "Honda", "Hyundai", "Infiniti", "Jaguar", "Jeep",
