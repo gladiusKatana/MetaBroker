@@ -1,7 +1,7 @@
 // PopupVC          ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
-class PopupMenuVC: UICollectionViewController, UIGestureRecognizerDelegate {
+class PopupMenuVC: UICollectionViewController {
     
     var downcastLayout : CustomFlowLayout?
     

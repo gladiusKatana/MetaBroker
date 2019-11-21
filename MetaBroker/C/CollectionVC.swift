@@ -1,7 +1,7 @@
 // CollectionVC     ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
-class CollectionVC: UICollectionViewController, UITextFieldDelegate, UIGestureRecognizerDelegate {
+class CollectionVC: UICollectionViewController, UITextFieldDelegate {
     
     var viewControllerType = CollectionViewType.first
     var backgroundColour = UIColor.clear;               var greyoutButtonIndex: Int?
