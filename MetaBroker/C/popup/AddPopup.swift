@@ -3,7 +3,7 @@ import UIKit
 
 extension CollectionVC {
     
-    func presentPopupView(column: Int, row: Int) {                  //print("-----------------")//print("presenting popup")
+    func presentPopupView(column: Int, row: Int, contents: [Any]) {                  //print("-----------------")//print("presenting popup")
         
         lockToCurrentOrientation()
         
@@ -36,6 +36,9 @@ extension CollectionVC {
             
             popupMenuViewController.collectionView?.scrollToItem(at: IndexPath(row: 0, section: 0), at: .bottom, animated: false)
             popupMenuViewController.collectionView.isUserInteractionEnabled = true
+            
+            popupMenuViewController.downcastLayout?.rows = contents.count
+            popupMenuViewController.popupContents = contents
             
             globalWindow.addSubview(popupMenuViewController.view)     //; print("----------------adding popup")
             

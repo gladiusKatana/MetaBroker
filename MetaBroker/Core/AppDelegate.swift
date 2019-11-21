@@ -48,6 +48,8 @@ import UIKit
             insHotlineVC.setupAndPresent(vc: insHotlineVC)                    /// just need a uiviewcontroller (any of them) to call this method
         }
         
+        populateVehicleYearOptions()
+        
         return true
     }
 }

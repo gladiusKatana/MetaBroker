@@ -35,7 +35,7 @@ extension CollectionVC {
             
             if cell.inputType == .dropDownMenu {
                 DispatchQueue.main.asyncAfter(deadline: .now()) {
-                    self.presentPopupView(column: column, row: row)
+                    self.presentPopupView(column: column, row: row, contents: vehicleMakeOptions)
                 }
             }
             

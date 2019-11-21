@@ -5,6 +5,7 @@ class PopupMenuVC: UICollectionViewController, UIGestureRecognizerDelegate {
     
     var downcastLayout : CustomFlowLayout?
     
+    var popupContents = [Any]()
     
     override init(collectionViewLayout layout: UICollectionViewLayout) {
         super.init(collectionViewLayout: layout)
@@ -15,11 +16,15 @@ class PopupMenuVC: UICollectionViewController, UIGestureRecognizerDelegate {
     
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return (downcastLayout!.loadsHorizontally) ? downcastLayout!.cols : downcastLayout!.rows
+        if popupContents.count != 0 {
+            return popupContents.count
+        } else {return (downcastLayout!.loadsHorizontally) ? downcastLayout!.cols : downcastLayout!.rows}
     }
     
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return (downcastLayout!.loadsHorizontally) ? downcastLayout!.rows : downcastLayout!.cols
+        if popupContents.count != 0 {
+            return popupContents.count
+        } else {return (downcastLayout!.loadsHorizontally) ? downcastLayout!.rows : downcastLayout!.cols}
     }
     
     
