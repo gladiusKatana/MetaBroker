@@ -1,4 +1,4 @@
-// VCLifecycle      ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// VCLifecycle      ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 extension CollectionVC {

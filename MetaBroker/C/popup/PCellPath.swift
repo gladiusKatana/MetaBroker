@@ -1,4 +1,4 @@
-// PCellPath        ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// PCellPath        ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 extension PopupMenuVC {

@@ -1,4 +1,4 @@
-// AppDelegate      ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// AppDelegate      ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 @UIApplicationMain class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -1,4 +1,4 @@
-// Vars             ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// Vars             ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 var globalWindow = UIWindow(frame: UIScreen.main.bounds)

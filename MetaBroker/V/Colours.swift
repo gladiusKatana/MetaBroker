@@ -1,4 +1,4 @@
-// Colours          ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// Colours          ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 

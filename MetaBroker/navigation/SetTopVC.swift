@@ -1,4 +1,4 @@
-// SetTopVC         ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// SetTopVC         ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 extension UICollectionViewController { 

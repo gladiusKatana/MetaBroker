@@ -1,4 +1,4 @@
-// BaseCell         ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// BaseCell         ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 class BaseCell: UICollectionViewCell {

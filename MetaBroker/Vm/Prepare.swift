@@ -1,4 +1,4 @@
-// Prepare          ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// Prepare          ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 extension CustomFlowLayout {

@@ -1,4 +1,4 @@
-// PLifeCycle       ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// PLifeCycle       ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 extension PopupMenuVC {

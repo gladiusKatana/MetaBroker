@@ -1,4 +1,4 @@
-// Left&RightCells  ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// Left&RightCells  ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 class RightAlignedCell: BaseCell {

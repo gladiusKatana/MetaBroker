@@ -1,4 +1,4 @@
-// CollectionVC     ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// CollectionVC     ･   MetaBroker   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 class CollectionVC: UICollectionViewController, UITextFieldDelegate {
