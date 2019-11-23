@@ -40,9 +40,14 @@ extension CollectionVC {
             popupMenuViewController.downcastLayout?.rows = contents.count
             popupMenuViewController.popupContents = contents
             
-            globalWindow.addSubview(popupMenuViewController.view)     //; print("----------------adding popup")
+//            globalWindow.addSubview(popupMenuViewController.view)     //; print("----------------adding popup")
+            topVC.view.addSubview(popupMenuViewController.view)
             
+//            print("popup window: \(popupMenuViewController.view.window)")
+            
+            topVC.resignFirstResponder()
             popupMenuViewController.becomeFirstResponder()
+            
             popupMenuViewController.collectionView.reloadData()
         }
     }

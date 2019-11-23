@@ -14,11 +14,13 @@ extension CollectionVC {
         
         if row >= layout.lockedHeaderRows && column >= layout.lockedHeaderSections {
             
-            //print("selected cell at index path \(indexPath)")
+//            print("selected cell at index path \(indexPath)")
             
-            if let customCell = cell as? CustomCell {
-                print("cell input mode: \(customCell.inputType)")
-            }
+            
+//            if let customCell = cell as? CustomCell {
+//                print("cell input mode: \(customCell.inputType)")
+//            }
+            
             
             //            let printCellAlso = false
             //
@@ -27,16 +29,17 @@ extension CollectionVC {
             //            }
             
             guard let cell = cell as? CustomCell else {
-                //print("tapped a left-aligned or other type of cell")
+                print("tapped a left-aligned or other type of cell")
                 return
             }
             
-            customAnimation(cell, withDuration: 1, delay: 0, newColour: lightNavy, initialColour: cell.cellColour)
+            //customAnimation(cell, withDuration: 1, delay: 0, newColour: lightNavy, initialColour: cell.cellColour)
             
             if cell.inputType == .dropDownMenu {
-                DispatchQueue.main.asyncAfter(deadline: .now()) {
-                    self.presentPopupView(column: column, row: row, contents: iHVehicleMakeOptions)
-                }
+                
+                print("drop down array of this cell: \(cell.dropDownArray)")
+                
+                presentPopupView(column: column, row: row, contents: cell.dropDownArray)
             }
             
         }

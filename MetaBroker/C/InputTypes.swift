@@ -7,17 +7,25 @@ extension CollectionVC {
         
         guard let text = cell.titleLabel.text else {print("failed to unwrap cell title label text"); return}
         
-        if text.contains("↕️") {
-            cell.inputType = .dropDownMenu
-        }
-        else if text == "" {
-            cell.inputType = .notAssigned
-        }
-        else {
-            cell.inputType = .keyboard
+        if viewControllerType == .first {
+            if text.contains("↕️") {
+                cell.inputType = .dropDownMenu
+                
+                if !(iHDropDownMenus.isEmpty) {
+                    cell.dropDownArray = iHDropDownMenus.first! //iHVehicleMakeOptions
+                    iHDropDownMenus.removeFirst()
+                    //print("cell \(cell.xyCoordinate) has drop-down menu: \n\(cell.dropDownArray)\n")
+                }
+                
+            }
+            else if text == "" {
+                cell.inputType = .notAssigned
+            }
+            else {
+                cell.inputType = .keyboard
+            }
         }
     }
-    
 }
 
 enum InputType: Int {
@@ -40,8 +48,6 @@ enum InputType: Int {
         case .notAssigned:
             return "\(baseDescription) not assigned yet"
         }
-        
     }
-    
 }
 

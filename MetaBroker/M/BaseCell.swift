@@ -8,6 +8,8 @@ class BaseCell: UICollectionViewCell {
     
     var cellColour = UIColor.clear
     
+    var xyCoordinate = [-1,-1]
+    
     
     override init(frame: CGRect) {
         

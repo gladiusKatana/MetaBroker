@@ -28,6 +28,9 @@ extension PopupMenuVC {
     func dismissPopupMenu() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
             popupMenuViewController.view.removeFromSuperview()
+            
+            popupMenuViewController.resignFirstResponder()
+            topVC.becomeFirstResponder()
         }
     }
     

@@ -7,6 +7,7 @@ extension CollectionVC {
         let customLayout = downcastLayout!
         let headerRows = customLayout.lockedHeaderRows; let headerSections = customLayout.lockedHeaderSections
         
+        cell.xyCoordinate = [column, row]
         let col = column > 0 ? column - 1 : column
         
         if column < headerSections || row < headerRows {

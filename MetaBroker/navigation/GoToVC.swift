@@ -26,7 +26,7 @@ extension CollectionVC {
             
             newVC.modalPresentationStyle = .fullScreen  /// disabling this results in the new (default) scene-based view, and changes navigation bar positioning
             
-            navController?.present(newVC, animated: false, completion: nil)
+            navController?.present(newVC, animated: false, completion: nil) 
         }
     }
     

@@ -36,7 +36,6 @@ extension CollectionVC {
         
         //}
         
-        reloadCV()
         //drawTestSquare() /// for testing purposes only: to verify dynamic calculation of navbar & status bar heights, on which cell heights depend when autofitting is enabled
         
     }

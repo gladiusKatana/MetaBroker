@@ -11,7 +11,7 @@ extension PopupMenuVC {
         let row = indexPath.item
         
         //cell.titleLabel.text = "tap to dismiss"
-        cell.titleLabel.text = popupContents[row] as? String
+        cell.titleLabel.text = "\(popupContents[row])"
         
         if row < customLayout.lockedHeaderRows
             //|| column < customLayout.lockedHeaderSections {           // our popup menu does not have header columns, if this is commented

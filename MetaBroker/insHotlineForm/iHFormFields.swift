@@ -2,7 +2,7 @@
 import UIKit
 
 var iHFormFields = [["",                                                                "",                     "",         "",         ""],
-                    [" Your Vehicle\(headerTitleSpaces)",                               "Year ↕️",              "Make ↕️",  "Model ↕️", ""],
+                    [" Your Vehicle\(headerTitleSpaces)",                               "Year ↕️",              "Make ↕️",     "Model",    ""],
                     [" Did you lease it?\(headerTitleSpaces)",                          "Leased",               "Not Leased", "",       ""],
                     [" When did you buy or lease?\(headerTitleSpaces)",                 "Year ↕️",              "Month ↕️", "",         ""],
                     [" Main use of your vehicle\(headerTitleSpaces)",                   "Pleasure",             "Business", "",         ""],
