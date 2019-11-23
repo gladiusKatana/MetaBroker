@@ -12,7 +12,7 @@ extension CollectionVC {
         
         var barButtonColours = [UIColor]()
         
-        let buttons = [secondButton, firstButton/*, reloadButton*/] /// buttons go from first... nth from left to right; reload button is invisible
+        let buttons = [secondButton, firstButton, reloadButton] /// buttons go from first... nth from left to right; reload button is invisible
         
         navigationItem.rightBarButtonItems = buttons
         
