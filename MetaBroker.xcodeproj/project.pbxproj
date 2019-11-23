@@ -14,7 +14,7 @@
 		06409BF0237E611F001D9953 /* TapPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BC6237E611F001D9953 /* TapPopup.swift */; };
 		06409BF1237E611F001D9953 /* AddPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BC7237E611F001D9953 /* AddPopup.swift */; };
 		06409BF2237E611F001D9953 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BC8237E611F001D9953 /* PopupVC.swift */; };
-		06409BF3237E611F001D9953 /* PULifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BC9237E611F001D9953 /* PULifeCycle.swift */; };
+		06409BF3237E611F001D9953 /* PLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BC9237E611F001D9953 /* PLifeCycle.swift */; };
 		06409BF4237E611F001D9953 /* PUCellPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BCA237E611F001D9953 /* PUCellPath.swift */; };
 		06409BF5237E611F001D9953 /* Tap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BCB237E611F001D9953 /* Tap.swift */; };
 		06409BF6237E611F001D9953 /* VCLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06409BCC237E611F001D9953 /* VCLifecycle.swift */; };
@@ -61,7 +61,7 @@
 		06409BC6237E611F001D9953 /* TapPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapPopup.swift; sourceTree = "<group>"; };
 		06409BC7237E611F001D9953 /* AddPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPopup.swift; sourceTree = "<group>"; };
 		06409BC8237E611F001D9953 /* PopupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
-		06409BC9237E611F001D9953 /* PULifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PULifeCycle.swift; sourceTree = "<group>"; };
+		06409BC9237E611F001D9953 /* PLifeCycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PLifeCycle.swift; sourceTree = "<group>"; };
 		06409BCA237E611F001D9953 /* PUCellPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PUCellPath.swift; sourceTree = "<group>"; };
 		06409BCB237E611F001D9953 /* Tap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tap.swift; sourceTree = "<group>"; };
 		06409BCC237E611F001D9953 /* VCLifecycle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCLifecycle.swift; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 				06409BC6237E611F001D9953 /* TapPopup.swift */,
 				06409BC7237E611F001D9953 /* AddPopup.swift */,
 				06409BCA237E611F001D9953 /* PUCellPath.swift */,
-				06409BC9237E611F001D9953 /* PULifeCycle.swift */,
+				06409BC9237E611F001D9953 /* PLifeCycle.swift */,
 				06409BC8237E611F001D9953 /* PopupVC.swift */,
 			);
 			path = popup;
@@ -338,7 +338,7 @@
 				06409C0B237E611F001D9953 /* TestSquare.swift in Sources */,
 				06409BFD237E611F001D9953 /* AppDelegate.swift in Sources */,
 				06409C12237E611F001D9953 /* BaseCell.swift in Sources */,
-				06409BF3237E611F001D9953 /* PULifeCycle.swift in Sources */,
+				06409BF3237E611F001D9953 /* PLifeCycle.swift in Sources */,
 				06409BFE237E611F001D9953 /* RotateLock.swift in Sources */,
 				06409BF6237E611F001D9953 /* VCLifecycle.swift in Sources */,
 				06409BFA237E611F001D9953 /* VCs.swift in Sources */,

@@ -1,4 +1,4 @@
-// PUCellPath       ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
+// PCellPath        ･   collection-view-boilerplate   ･     created by Garth Snyder   aka   gladiusKatana  ⚔️
 import UIKit
 
 extension PopupMenuVC {
