@@ -37,7 +37,7 @@ extension CollectionVC {
             
             if cell.inputType == .dropDownMenu {
                 
-                print("drop down array of this cell: \(cell.dropDownArray)")
+                //print("drop down array of this cell: \(cell.dropDownArray)")
                 
                 presentPopupView(column: column, row: row, contents: cell.dropDownArray)
             }

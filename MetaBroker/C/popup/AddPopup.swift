@@ -42,12 +42,13 @@ extension CollectionVC {
             
 //            globalWindow.addSubview(popupMenuViewController.view)     //; print("----------------adding popup")
             topVC.view.addSubview(popupMenuViewController.view)
+                
+//            self.navigationController?.present(popupMenuViewController, animated: false)
             
 //            print("popup window: \(popupMenuViewController.view.window)")
             
             topVC.resignFirstResponder()
             popupMenuViewController.becomeFirstResponder()
-            
             popupMenuViewController.collectionView.reloadData()
         }
     }

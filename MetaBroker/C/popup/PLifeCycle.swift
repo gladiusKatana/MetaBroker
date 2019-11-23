@@ -15,7 +15,7 @@ extension PopupMenuVC {
     }
     
     
-    override func viewDidAppear(_ animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {     print("popup appeared...")
         super.viewDidAppear(animated)
         
         let hscale = insHotlineVC.downcastLayout!.autoFitHeightScale
@@ -27,7 +27,10 @@ extension PopupMenuVC {
     
     func dismissPopupMenu() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
+            
             popupMenuViewController.view.removeFromSuperview()
+            
+//            topVC.navigationController?.dismiss(animated: false)
             
             popupMenuViewController.resignFirstResponder()
             topVC.becomeFirstResponder()
