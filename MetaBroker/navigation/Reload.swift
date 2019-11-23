@@ -4,7 +4,7 @@ import UIKit
 extension CollectionVC {
     
     
-    @objc func reloadCV() {                                                 //; print("↺")
+    @objc func reloadCV() {                                                 print("↺")
         
         self.collectionView.reloadData()
         
