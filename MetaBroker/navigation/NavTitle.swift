@@ -11,7 +11,7 @@ extension CollectionVC {
             title = customString
         }
         else {
-            if viewControllerType == .first {
+            if viewControllerType == .insuranceHotline {
                 title = "[MetaBroker] InsuranceHotline.com"
             }
             else {

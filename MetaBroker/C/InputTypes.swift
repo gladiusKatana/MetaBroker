@@ -7,7 +7,7 @@ extension CollectionVC {
         
         guard let text = cell.titleLabel.text else {print("failed to unwrap cell title label text"); return}
         
-        if viewControllerType == .first {
+        if viewControllerType == .insuranceHotline {
             if text.contains("↕️") {
                 cell.inputType = .dropDownMenu
                 

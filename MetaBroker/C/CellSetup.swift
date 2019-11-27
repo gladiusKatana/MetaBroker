@@ -36,7 +36,7 @@ extension CollectionVC {
     func setupRightCells(_ cell: RightAlignedCell, row: Int, column: Int) -> RightAlignedCell  {
         setupTitleCells(cell, row: row, column: column)
         
-        if viewControllerType == .first {
+        if viewControllerType == .insuranceHotline {
             cell.titleLabel.text = iHFormFields[row][0]
         }
         

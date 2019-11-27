@@ -21,7 +21,7 @@ var insHotlineLayout =
         loadsHorizontally: false,               ///❗️if loadsHorizontally is true, 'rows' look like columns
         squareCellMode: .noAutoSquare)          /// allows cells to be square, with the height set from the width, or vice versa (if the secondary dimension is set above, it's overridden)
 
-var insHotlineVC = CollectionVC(viewControllerType: .first, backgroundColour: defaultBackgroundColour,
+var insHotlineVC = CollectionVC(viewControllerType: .insuranceHotline, backgroundColour: defaultBackgroundColour,
                            greyoutButtonIndex: 1, collectionViewLayout: insHotlineLayout)
 
 
@@ -37,7 +37,7 @@ var kanetixLayout =
         loadsHorizontally: false,
         squareCellMode: .noAutoSquare)
 
-var kanetixVC = CollectionVC(viewControllerType: .second, backgroundColour: defaultBackgroundColour,
+var kanetixVC = CollectionVC(viewControllerType: .kanetix, backgroundColour: defaultBackgroundColour,
                             greyoutButtonIndex: 0, collectionViewLayout: kanetixLayout)
 
 

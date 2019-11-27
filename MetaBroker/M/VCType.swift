@@ -4,7 +4,7 @@ import UIKit
 enum CollectionViewType: Int {
     
     case initial = 0
-    case first, second, popupMenu
+    case insuranceHotline, kanetix, popupMenu
     
     func simpleDescription() -> String {
         
@@ -13,10 +13,10 @@ enum CollectionViewType: Int {
         case .initial:
             return "initial value to satisfy initializer of global collection view controller 'topVC'"
             
-        case .first:
+        case .insuranceHotline:
             return "first view controller"
             
-        case .second:
+        case .kanetix:
             return "second view controller"
             
         case .popupMenu:

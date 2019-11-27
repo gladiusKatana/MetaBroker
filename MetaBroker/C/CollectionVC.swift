@@ -3,7 +3,7 @@ import UIKit
 
 class CollectionVC: UICollectionViewController, UITextFieldDelegate {
     
-    var viewControllerType = CollectionViewType.first
+    var viewControllerType = CollectionViewType.insuranceHotline
     var backgroundColour = UIColor.clear;               var greyoutButtonIndex: Int?
     
     var downcastLayout: CustomFlowLayout?
