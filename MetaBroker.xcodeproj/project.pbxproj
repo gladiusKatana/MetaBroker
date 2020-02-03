@@ -130,11 +130,10 @@
 			children = (
 				06409BCF237E611F001D9953 /* Core */,
 				0648D766237E721000309353 /* insHotlineForm */,
-				06409BDD237E611F001D9953 /* navigation */,
-				06409BC4237E611F001D9953 /* C */,
 				06409BEB237E611F001D9953 /* M */,
 				06409BE8237E611F001D9953 /* V */,
 				06409BD6237E611F001D9953 /* Vm */,
+				06409BC4237E611F001D9953 /* C */,
 				06409BE4237E611F001D9953 /* Checks */,
 				06409BB9237E5A26001D9953 /* Assets.xcassets */,
 				06409BBB237E5A26001D9953 /* LaunchScreen.storyboard */,
@@ -153,6 +152,7 @@
 				0655A8212384AA82009AC522 /* InputTypes.swift */,
 				06409BCB237E611F001D9953 /* Tap.swift */,
 				06409BC5237E611F001D9953 /* popup */,
+				06409BDD237E611F001D9953 /* navigation */,
 			);
 			path = C;
 			sourceTree = "<group>";
