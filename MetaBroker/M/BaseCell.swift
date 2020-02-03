@@ -30,8 +30,8 @@ class BaseCell: UICollectionViewCell {
         
         super.prepareForReuse()
         
-        backgroundColor = .clear
-        cellColour = .clear
+//        backgroundColor = .clear
+//        cellColour = .clear
         
         layer.borderWidth = 1
         layer.borderColor = UIColor.clear.cgColor

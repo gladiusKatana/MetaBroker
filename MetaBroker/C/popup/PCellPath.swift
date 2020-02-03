@@ -7,22 +7,23 @@ extension PopupMenuVC {
                                  cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CustomCell.popupReuseIdentifier, for: indexPath) as! CustomCell
-        let customLayout = downcastLayout!
+        
         let row = indexPath.item
         
-        //cell.titleLabel.text = "tap to dismiss"
-        cell.titleLabel.text = "\(popupContents[row])"
+        //let customLayout = downcastLayout!
         
-        if row < customLayout.lockedHeaderRows
-            //|| column < customLayout.lockedHeaderSections {           // our popup menu does not have header columns, if this is commented
-        {
-            cell.backgroundColor = popupMenuLightGray
-            cell.titleLabel.font = UIFont.systemFont(ofSize: 12, weight: .thin)
-        }
-        else {
-            cell.backgroundColor = .white
+        cell.titleLabel.text = "\(popupContents[row])" //"tap to dismiss"
+        
+//        if row < customLayout.lockedHeaderRows // our popup menu does not have headers, if this is commented
+//            //|| column < customLayout.lockedHeaderSections {
+//        {
+//            cell.backgroundColor = headerColour
+//            cell.titleLabel.font = UIFont.systemFont(ofSize: 12, weight: .thin)
+//        }
+//        else {
+            cell.backgroundColor = popupMenuCellColour
             cell.titleLabel.textColor = .black
-        }
+//        }
         
         return cell
     }

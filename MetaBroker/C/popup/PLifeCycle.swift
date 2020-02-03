@@ -6,7 +6,7 @@ extension PopupMenuVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.backgroundColor = .white
+        collectionView.backgroundColor = popupMenuCellColour
         collectionView.register(CustomCell.self, forCellWithReuseIdentifier: CustomCell.popupReuseIdentifier)
         collectionView?.isUserInteractionEnabled = true
         

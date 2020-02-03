@@ -16,20 +16,19 @@ var testSquareColours = /// see TestSquare.swift
 
 var defaultBackgroundColour = platinum
 
-var cellDefaultColour = UIColor.clear
 
-var headerColour = UIColor.white
+var headerColour = platinum
 
+var cellDefaultColour = grayOne //UIColor.lightGray
 
 
 var cellTextDefaultColour = UIColor.black
 
 
 
-var popupMenuLightGray = UIColor.lightGray
-var iosSettingsGray = UIColor.rgb(240, g: 240, b: 247, a: 1)
+var popupMenuCellColour = UIColor.darkGray          //; var iosSettingsGray = UIColor.rgb(240, g: 240, b: 247, a: 1)
 
-var grayTwo = UIColor.rgb(0, g: 0, b: 0, a: 0.2)
+var grayOne = UIColor.rgb(0, g: 0, b: 0, a: 0.1)    ; var grayTwo = UIColor.rgb(0, g: 0, b: 0, a: 0.2)
 var graySeven = UIColor.rgb(0, g: 0, b: 0, a: 0.7)
 
 

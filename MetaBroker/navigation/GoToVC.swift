@@ -9,10 +9,10 @@ extension CollectionVC {
         
         if topVC != vc {
             
-            if topVC.backgroundColour != .white { /// if it is, seeing any other colour for a split second (ie, background view), is visually jarring. Status bar & nav bar are white in this app
-                globalWindow.backgroundColor = vc.backgroundColour /// so window background colour (what you see when no view controller is presented), matches new top vc's
-                backgroundVC.view.backgroundColor = vc.backgroundColour                     ///print("reset background colours to \(vc.backgroundColour)")
-            }
+//            if topVC.backgroundColour != .white { /// if it is, seeing any other colour for a split second (ie, background view), is visually jarring
+//                globalWindow.backgroundColor = vc.backgroundColour /// so window background colour (what you see when no view controller is presented), matches new top vc's
+//                backgroundVC.view.backgroundColor = vc.backgroundColour                     ///print("reset background colours to \(vc.backgroundColour)")
+//            }
             
             setupAndPresent(vc: vc)
             
