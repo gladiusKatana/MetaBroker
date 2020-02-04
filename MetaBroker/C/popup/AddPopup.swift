@@ -47,6 +47,8 @@ extension CollectionVC {
             
 //            print("popup window: \(popupMenuViewController.view.window)")
             
+            topVC.collectionView.isScrollEnabled = false
+            
             topVC.resignFirstResponder()
             popupMenuViewController.becomeFirstResponder()
             popupMenuViewController.collectionView.reloadData()

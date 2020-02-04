@@ -28,6 +28,8 @@ extension PopupMenuVC {
     func dismissPopupMenu() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.25) {
             
+            topVC.collectionView.isScrollEnabled = true
+            
             popupMenuViewController.view.removeFromSuperview()
             
 //            topVC.navigationController?.dismiss(animated: false)
@@ -36,6 +38,5 @@ extension PopupMenuVC {
             topVC.becomeFirstResponder()
         }
     }
-    
 }
 

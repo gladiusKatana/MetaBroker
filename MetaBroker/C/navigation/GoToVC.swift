@@ -21,19 +21,29 @@ extension CollectionVC {
     
     
     func setupAndPresent(vc: UICollectionViewController) {                                  //print("setup and present")
-        dismissNavController {
-            let newVC = UINavigationController(rootViewController: vc)
-            
-            newVC.modalPresentationStyle = .fullScreen  /// disabling this results in the new (default) scene-based view, and changes navigation bar positioning
-            
-            navController?.present(newVC, animated: false, completion: nil) 
-        }
+        
+        dismissNavController()
+        let newVC = UINavigationController(rootViewController: vc)
+        newVC.modalPresentationStyle = .fullScreen  /// disabling this results in the new (default) scene-based view, and changes navigation bar positioning
+        navController?.present(newVC, animated: false, completion: nil)
+        
+//        dismissNavController {
+//            let newVC = UINavigationController(rootViewController: vc)
+//
+//            newVC.modalPresentationStyle = .fullScreen  /// disabling this results in the new (default) scene-based view, and changes navigation bar positioning
+//
+//            navController?.present(newVC, animated: false, completion: nil)
+//        }
+        
     }
     
+//    func dismissNavController(completion: @escaping () -> ()) {
+//        navController?.dismiss(animated: false, completion: nil)
+//        completion()
+//    }
     
-    func dismissNavController(completion: @escaping () -> ()) {
+    func dismissNavController() {
         navController?.dismiss(animated: false, completion: nil)
-        completion()
     }
     
 }
